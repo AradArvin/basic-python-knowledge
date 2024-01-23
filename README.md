@@ -1,8 +1,7 @@
 # 🌟🔥 Basic Python Knowledge 🔥🌟 
 
 <p align="center">
-<img width="40%" src="media/213911110-aedbef38-a29f-4b6b-a65c-11608b4f75a5.gif">
-<img width="40%" src="media/213911110-aedbef38-a29f-4b6b-a65c-11608b4f75a5.gif">
+<img width="50%" src="media/213911110-aedbef38-a29f-4b6b-a65c-11608b4f75a5.gif">
 </p>
 
 <img width="100%" src="media/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
