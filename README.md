@@ -171,7 +171,7 @@ Boolean is one of Python's built-in data types. It's used to represent the truth
 Sets are used to store multiple items in a single variable. A set is a collection which is **unordered**, and **unindexed**. Keep in mind that duplicate values are not allowed in sets. ***A set itself may be modified, but the elements contained in the set must be of an immutable type.***
 
 - set -> a normal mutable set of immutable values.
-- frozenset -> frozenset is in all respects exactly like a set, except that a frozenset is immutable. **< frozenset(set) >**
+- frozenset -> frozenset is in all respects exactly like a set, except that a frozenset is immutable. `< frozenset(set) >`
 
 **Examples:**
 
@@ -616,7 +616,7 @@ print(list(result))
 
 ### zip()
 
-The zip() function returns a zip object, it takes iterable containers and returns a single iterator object, having mapped values from all the containers. It is used to map the similar index of multiple containers so that they can be used just using a single entity. 
+The `zip()` function returns a zip object, it takes iterable containers and returns a single iterator object, having mapped values from all the containers. It is used to map the similar index of multiple containers so that they can be used just using a single entity. 
 
 If the passed iterables have different lengths, the iterable with the least items decides the length of the new iterator.
 
@@ -628,7 +628,7 @@ _zip(*iterables)_
 
 **Example:**
 
--`zip()` is so useful when we need to make a dictionary from two lists.
+-`zip()` method is so useful when we need to make a dictionary from two lists.
 
 ```bash
 stocks = ['GEEKS', 'For', 'geeks']
@@ -834,7 +834,7 @@ Assertion is the boolean expression that checks if the statement is True or Fals
 assert condition, error_message(optional) 
 ```
 
-An assert statement consists of the assert keyword, the expression or condition to test, and an optional message. The condition is supposed to always be `True`. If the assertion condition is `True`, then nothing happens, and your program continues its normal execution. On the other hand, if the condition becomes `False`, then assert halts the program by raising an AssertionError.
+An ***assert*** statement consists of the `assert` keyword, the expression or condition to test, and an optional message. The condition is supposed to always be `True`. If the assertion condition is `True`, then nothing happens, and your program continues its normal execution. On the other hand, if the condition becomes `False`, then assert halts the program by raising an AssertionError.
 
 <img width="100%" src="media/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
@@ -852,7 +852,7 @@ There are basically 2 kinds of operations in python:
 
 ### Managing resources
 
-In any programming language, the usage of external resources like file operations or database connections is very common. But these resources are limited in supply. Therefore, the main problem lies in making sure to release these resources after usage. If they are not released then it will lead to resource leakage and may cause the system to either slow down or crash. It would be very helpful if users have a mechanism for the automatic setup and teardown of resources. In Python, it can be achieved by the usage of context managers which facilitate the proper handling of resources. The with statement in Python is a quite useful tool for properly managing external resources in your programs
+In any programming language, the usage of external resources like file operations or database connections is very common. But these resources are limited in supply. Therefore, the main problem lies in making sure to release these resources after usage. If they are not released then it will lead to resource leakage and may cause the system to either slow down or crash. It would be very helpful if users have a mechanism for the automatic setup and teardown of resources. In Python, it can be achieved by the usage of context managers which facilitate the proper handling of resources. The with statement in Python is a quite useful tool for properly managing external resources in your programs.
 
 
 ### with statement
