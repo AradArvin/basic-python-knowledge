@@ -10,7 +10,7 @@
 Hi everyone I am a python developer. As we all know there are times that we can easily forget the most basic stuff about programming. So I took it apon myself to write this README on most basic pythonic knowledge needed by a python developer if the need to search for the most basic stuff ever rises. Now I can find what I've been searching 1000 times over much more easier ;). Please enjoy...
 
 <p align="center">
-<img width="50%" src="media/216656963-09118229-8a9e-4af0-910c-c37f35f2e210.gif">
+<img width="50%" src="media/">
 </p>
 
 <img width="100%" src="media/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
